@@ -14,7 +14,7 @@
     firebase.initializeApp(firebaseConfig);
     
     var db = firebase.database();
-    var trainRef = db.ref("/train")
+       var trainRef = db.ref("/train");
     
     $(".submit-button").on("click", function(event){
       event.preventDefault();
@@ -22,7 +22,7 @@
       var trainName = $("trainName").val()
 
       trainRef.push({
-        trainName : trainName
+        train : train.trainName
       })
-      })
+      }) 
 });

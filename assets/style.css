@@ -1,0 +1,19 @@
+.container{
+    background-color: white;
+}
+.display-4{
+    background-color: black;
+    color:  white;
+    text-emphasis: bold;
+    text-align: center;
+    margin: -15px;
+}
+.jumbotron{
+    background-color: black;
+}
+.lead{
+    background-color: black;
+    color:  white;
+    text-align: center;
+    margin: -15px;
+}
