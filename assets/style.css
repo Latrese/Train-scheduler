@@ -4,7 +4,7 @@
 .display-4{
     background-color: black;
     color:  white;
-    text-emphasis: bold;
+    font-weight: bold;
     text-align: center;
     margin: -15px;
 }
@@ -15,5 +15,13 @@
     background-color: black;
     color:  white;
     text-align: center;
+    font-weight: bold;
     margin: -15px;
+}
+.header-small{
+    background-color: grey;
+    color:  black;
+    text-underline-position: below;
+    font-weight: bold;
+    padding: 10px;
 }
